@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "shadcn@latest",
+        "mcp"
+      ]
+    },
+    "next-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "next-devtools-mcp@latest"
+      ]
+    },
+    "supabase": {
+      "type": "http",
+      "url": "http://127.0.0.1:54321/mcp"
+    }
+  }
+}
